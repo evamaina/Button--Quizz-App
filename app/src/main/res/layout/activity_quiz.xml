@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    tools:context=".QuizActivity"
+    android:orientation="vertical"
+    android:id="@+id/quiz"
+    android:background="#979">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="score"
+            android:textSize="26sp"
+            android:layout_alignParentLeft ="true"
+            android:id="@+id/score_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="26sp"
+            android:layout_alignParentRight ="true"
+            android:id="@+id/score"/>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you ready for the quiz?"
+        android:textSize="26sp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/question"
+        android:padding="8dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:textSize="20sp"
+        android:id="@+id/choice1"
+        android:layout_marginBottom="20dp"
+        android:background="#009fdb"
+        android:textColor="#fff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:textSize="20sp"
+        android:id="@+id/choice2"
+        android:layout_marginBottom="20dp"
+        android:background="#009fdb"
+        android:textColor="#fff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Later"
+        android:textSize="20sp"
+        android:id="@+id/choice3"
+        android:layout_marginBottom="20dp"
+        android:background="#009fdb"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Much Later"
+        android:textSize="20sp"
+        android:id="@+id/choice4"
+        android:layout_marginBottom="20dp"
+        android:background="#009fdb"
+        android:textColor="#fff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textSize="20sp"
+        android:id="@+id/submit"
+        android:layout_marginBottom="24dp"
+        android:background="#cd0000"
+        android:textColor="#fff" />
+
+
+
+
+
+
+</LinearLayout>
